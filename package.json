@@ -1,0 +1,8 @@
+{
+  "name": "frontend-performance-test",
+  "version": "0.1.0",
+  "devDependencies": {
+    "phantomjs": "~1.9.1",
+    "webpagetest": "~0.1.3"
+  }
+}
