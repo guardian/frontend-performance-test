@@ -4,10 +4,13 @@
       "requests": 65,
       "render": 1000,
       "loadTime": 3000,
-      "bytesIn": 1000000,
+      "bytesIn": 1048576,
       "breakdown": {
-      "js": {
-          "bytes": 250000
+        "js": {
+          "bytes": 262144
+        },
+        "image": {
+          "bytes": 524288
         }
       }
     }
