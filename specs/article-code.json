@@ -1,18 +1,22 @@
 {
-  "median": {
-    "firstView": {
-      "requests": 1,
-      "render": 2000,
-      "loadTime": 5000,
-      "bytesIn": 1048576,
-      "breakdown": {
-        "js": {
-          "bytes": 524288
-        },
-        "image": {
-          "bytes": 209715
+    "defaults": {
+        "suiteName": "Article Performance Test Suite",
+        "text": ": {actual} should be {operation} {expected} for {metric}"
+    },
+    "median": {
+        "firstView": {
+            "requests": 40,
+            "render": 2000,
+            "loadTime": 5000,
+            "bytesIn": 1048576,
+            "breakdown": {
+                "js": {
+                    "bytes": 524288
+                },
+                "image": {
+                    "bytes": 209715
+                }
+            }
         }
-      }
     }
-  }
 }
