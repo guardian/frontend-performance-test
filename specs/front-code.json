@@ -2,7 +2,7 @@
   "median": {
     "firstView": {
       "requests": 60,
-      "render": 1000,
+      "render": 2000,
       "loadTime": 5000,
       "bytesIn": 1258291,
       "breakdown": {
@@ -10,7 +10,7 @@
           "bytes": 524288
         },
         "image": {
-          "bytes": 314573
+          "bytes": 524288
         }
       }
     }
