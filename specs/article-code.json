@@ -1,7 +1,7 @@
 {
   "median": {
     "firstView": {
-      "requests": 40,
+      "requests": 1,
       "render": 2000,
       "loadTime": 5000,
       "bytesIn": 1048576,
