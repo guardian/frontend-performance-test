@@ -1,0 +1,18 @@
+{
+  "median": {
+    "firstView": {
+      "requests": 60,
+      "render": 1000,
+      "loadTime": 5000,
+      "bytesIn": 1258291,
+      "breakdown": {
+        "js": {
+          "bytes": 524288
+        },
+        "image": {
+          "bytes": 314573
+        }
+      }
+    }
+  }
+}
