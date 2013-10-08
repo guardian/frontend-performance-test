@@ -4,7 +4,7 @@ module.exports = function (grunt) {
     var wptArgs = [
             ['-s', grunt.option('server')],
             ['--breakdown'],
-            ['--reporter', 'xunit'],
+            ['--reporter', 'teamcity'],
             ['--poll'],
             ['--first'],
             ['-l', 'EU_WEST_wptdriver:Chrome']
