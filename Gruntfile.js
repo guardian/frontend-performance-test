@@ -2,12 +2,13 @@
 module.exports = function (grunt) {
 
     var wptArgs = [
-            ['-s', grunt.option('server')],
+            ['--server', grunt.option('server')],
             ['--breakdown'],
-            ['--reporter', 'teamcity'],
+            ['--reporter', 'spec'],
             ['--poll'],
-            ['--first'],
-            ['-l', 'EU_WEST_wptdriver:Chrome']
+            ['--mobile'],
+            ['--noads'],
+            ['--location', 'EU_WEST_wptdriver:Chrome']
         ],
         domains = {
             code: 'm.code.dev-theguardian.com',
@@ -28,10 +29,12 @@ module.exports = function (grunt) {
                     // default to code
                     var env = grunt.option('env') || 'code',
                         domain = domains[env];
-                    grunt.log.oklns('Running against `' + domain + '`')
-                    return './node_modules/webpagetest/bin/webpagetest test http://' + domain + '/' + urls[app] + '?view=mobile ' + wptArgs.map(function(arg) {
+                        cmd = './node_modules/webpagetest/bin/webpagetest test http://' + domain + '/' + urls[app] + '?view=mobile ' + wptArgs.map(function(arg) {
                             return arg.join(' ')
                         }).join(' ') + ' --specs specs/' + app + '-' + env + '.json';
+                    grunt.log.ok('Running against `' + domain + '`');
+                    grunt.log.ok('`' + cmd + '`');
+                    return cmd;
                 },
                 options: {
                     stdout: true,
