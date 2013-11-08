@@ -3,18 +3,36 @@
         "suiteName": "Article Performance Test Suite",
         "text": ": {actual} should be {operation} {expected} for {metric}"
     },
-    "median": {
+    "run": {
         "firstView": {
-            "requests": 40,
-            "render": 2000,
-            "loadTime": 5000,
-            "bytesIn": 1048576,
+            "results": {
+                "requests": 60,
+                "render": 2000,
+                "loadTime": 3000,
+                "bytesIn": 1310720
+            },
             "breakdown": {
                 "js": {
                     "bytes": 524288
                 },
                 "image": {
                     "bytes": 209715
+                }
+            }
+        },
+        "repeatView": {
+            "results": {
+                "requests": 30,
+                "render": 2000,
+                "loadTime": 3000,
+                "bytesIn": 262144
+            },
+            "breakdown": {
+                "js": {
+                    "bytes": 20971
+                },
+                "image": {
+                    "bytes": 7340
                 }
             }
         }
