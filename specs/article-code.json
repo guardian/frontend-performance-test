@@ -9,30 +9,30 @@
                 "requests": 60,
                 "render": 2000,
                 "loadTime": 3000,
-                "bytesIn": 1310720
+                "bytesIn": 1572864
             },
             "breakdown": {
                 "js": {
                     "bytes": 524288
                 },
                 "image": {
-                    "bytes": 209715
+                    "bytes": 524288
                 }
             }
         },
         "repeatView": {
             "results": {
-                "requests": 30,
+                "requests": 35,
                 "render": 2000,
                 "loadTime": 3000,
                 "bytesIn": 262144
             },
             "breakdown": {
                 "js": {
-                    "bytes": 20971
+                    "bytes": 52428
                 },
                 "image": {
-                    "bytes": 7340
+                    "bytes": 20971
                 }
             }
         }

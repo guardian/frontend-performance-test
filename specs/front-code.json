@@ -16,23 +16,23 @@
                     "bytes": 524288
                 },
                 "image": {
-                    "bytes": 314572
+                    "bytes": 524288
                 }
             }
         },
         "repeatView": {
             "results": {
-                "requests": 30,
+                "requests": 31,
                 "render": 3000,
                 "loadTime": 4000,
                 "bytesIn": 262144
             },
             "breakdown": {
                 "js": {
-                    "bytes": 20971
+                    "bytes": 52428
                 },
                 "image": {
-                    "bytes": 7340
+                    "bytes": 52428
                 }
             }
         }
