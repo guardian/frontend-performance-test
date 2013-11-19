@@ -8,7 +8,7 @@
             "results": {
                 "requests": 60,
                 "render": 2000,
-                "loadTime": 3000,
+                "loadTime": 5000,
                 "bytesIn": 1572864
             },
             "breakdown": {

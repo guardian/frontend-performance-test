@@ -22,7 +22,7 @@
         },
         "repeatView": {
             "results": {
-                "requests": 31,
+                "requests": 35,
                 "render": 3000,
                 "loadTime": 4000,
                 "bytesIn": 262144
