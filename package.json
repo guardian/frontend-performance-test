@@ -2,8 +2,8 @@
   "name": "frontend-performance-test",
   "version": "0.1.0",
   "devDependencies": {
-    "grunt": "~0.4.0",
-    "grunt-shell": "~0.4.0",
-    "webpagetest": "~0.1.3"
+    "grunt": "~0.4.1",
+    "grunt-shell": "~0.6.0",
+    "webpagetest": "~0.2.0"
   }
 }
