@@ -7,7 +7,6 @@
         "firstView": {
             "results": {
                 "requests": 60,
-                "render": 2000,
                 "loadTime": 5000,
                 "bytesIn": 1572864
             },
@@ -23,7 +22,6 @@
         "repeatView": {
             "results": {
                 "requests": 35,
-                "render": 2000,
                 "loadTime": 3000,
                 "bytesIn": 262144
             },
