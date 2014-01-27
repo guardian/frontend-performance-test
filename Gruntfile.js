@@ -4,7 +4,7 @@ module.exports = function (grunt) {
     var wptArgs = [
             ['--server', grunt.option('server')],
             ['--breakdown'],
-            ['--reporter', 'teamcity'],
+            ['--reporter', 'mocha-teamcity-reporter'],
             ['--poll'],
             ['--mobile'],
             ['--noads'],
