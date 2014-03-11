@@ -6,31 +6,31 @@
     "run": {
         "firstView": {
             "results": {
-                "requests": 60,
+                "requests": 70,
                 "loadTime": 5000,
-                "bytesIn": 1572864
+                "bytesIn": 2000000
             },
             "breakdown": {
                 "js": {
-                    "bytes": 524288
+                    "bytes": 600000
                 },
                 "image": {
-                    "bytes": 524288
+                    "bytes": 8000000
                 }
             }
         },
         "repeatView": {
             "results": {
-                "requests": 35,
-                "loadTime": 4000,
-                "bytesIn": 262144
+                "requests": 70,
+                "loadTime": 5000,
+                "bytesIn": 2000000
             },
             "breakdown": {
                 "js": {
-                    "bytes": 52428
+                    "bytes": 500000
                 },
                 "image": {
-                    "bytes": 52428
+                    "bytes": 600000
                 }
             }
         }

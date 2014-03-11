@@ -7,7 +7,7 @@
         "firstView": {
             "results": {
                 "requests": 60,
-                "loadTime": 5000,
+                "loadTime": 6000,
                 "bytesIn": 1572864
             },
             "breakdown": {
@@ -21,16 +21,16 @@
         },
         "repeatView": {
             "results": {
-                "requests": 35,
-                "loadTime": 3000,
-                "bytesIn": 262144
+                "requests": 80,
+                "loadTime": 5000,
+                "bytesIn": 2000000
             },
             "breakdown": {
                 "js": {
-                    "bytes": 52428
+                    "bytes": 500000
                 },
                 "image": {
-                    "bytes": 20971
+                    "bytes": 300000
                 }
             }
         }

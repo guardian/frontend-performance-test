@@ -15,7 +15,7 @@ module.exports = function (grunt) {
             prod: 'www.theguardian.com'
         },
         urls = {
-            front: 'uk',
+            front: 'uk-alpha',
             article: 'news/2013/oct/07/jfk-assassination-creepiest-detail-parkland'
         };
 
@@ -29,7 +29,7 @@ module.exports = function (grunt) {
                     // default to code
                     var env = grunt.option('env') || 'code',
                         domain = domains[env];
-                        cmd = './node_modules/webpagetest/bin/webpagetest test http://' + domain + '/' + urls[app] + '?view=mobile ' + wptArgs.map(function(arg) {
+                        cmd = './node_modules/webpagetest/bin/webpagetest test http://' + domain + '/' + urls[app] + '?view=responsive ' + wptArgs.map(function(arg) {
                             return arg.join(' ')
                         }).join(' ') + ' --specs specs/' + app + '-' + env + '.json';
                     grunt.log.ok('Running against `' + domain + '`');
